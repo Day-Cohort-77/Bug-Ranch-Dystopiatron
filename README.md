@@ -76,11 +76,21 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+
+> Your answer here
+//The value of the `drovers` variable is a data Array that individually lists Drovers to be called from when running that function.//
+
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+
+> Your answer here 
+//'const drover' is a variable that will place each drover object as the 'drovers' array loops.
+'drovers' is the data array that contains each drover as an object.//
+
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here
+   https://www.loom.com/share/f5d853d4c5014a1c89c3e3b19c7ac2e0
+
+
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -88,11 +98,23 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
+   
    > Your answer here
+//This is a "for loop" that is 1 of 4 loops part of the 'journeyMaker()' function.
+  This particular loop will run a count of the forests being pulled from the 'areas' data set during  the journey, beginning at 0 and assign a number to each on a scale of +1 each time.
+journey.push("forest") adds "forest" to the terrain in the journey created by the function. //
+
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
+   
    > Your answer here
+   The data base variable contains 2 arrays of objects. the first array of objects. the first array of objects consists of "cattle types", the second array consists of "drovers"
+
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
+   
+   
    > Your answer here
+the variable hireDrovers is passing an argument of herdSize, which defines the cattle and drovers for the final drive.
+
 
 ## When You Are Done
 
